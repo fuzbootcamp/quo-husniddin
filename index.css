@@ -1,0 +1,307 @@
+*{
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+
+.btns{
+    width: 114px;
+    height: 42px;
+    background-color: #6C60FE;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-radius: 5px;
+
+}
+
+header{
+    text-align: center;
+}
+
+
+.aaa{
+    font-size: 70px;
+    font-weight: 700;
+    color: #09053F;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.bbb{
+    font-size: 23px;
+    font-weight: 400;
+    color: #0A021380;
+    text-align: center;
+    
+}
+
+.ccc{
+    width: 275px;
+    margin-left: 600px;
+    padding: 100px 0;
+}
+
+.fff{
+    font-size: 45px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    
+}
+
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .jjj{
+    font-size: 50px;
+    color: #000000;
+    font-weight: 500;
+  }
+
+  .qqq{
+    font-size: 19px;
+    font-weight: 400;
+    color: #0A021380;
+    
+  }
+
+  .www{
+    width: 170px;
+    height: 65px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0A0213;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .h-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: max-content;
+    padding: 60px 0;
+  }
+
+  .h-right img{
+
+    width: 100%;
+  }
+
+  .eee{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    color: #0A021380;
+  }
+
+  .jjs{
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+    font-weight: 500;
+  }
+
+  .s-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    border: none !important;
+    
+  }
+
+  .ttt{
+   font-size: 20px;
+   font-weight: 500;
+   text-align: center;
+  }
+
+  .yyy{
+    width: 85px;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+
+  .lll{
+    font-size: 10px;
+    text-align: center;
+  }
+
+
+ 
+
+
+  .m-left{
+    width: 501px;
+  }
+
+  .m-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: max-content;
+    padding: 60px 0;
+  }
+
+  
+
+  .jjss{
+    font-size: 50px;
+    color: #000000;
+    font-weight: 500;
+  }
+
+  .eees{
+    font-size: 19px;
+    font-weight: 400;
+    color: #0A021380;
+  }
+
+  .wwws{
+    width: 170px;
+    height: 65px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0A0213;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .gio{
+    width: 530px;
+  }
+
+
+  aside{
+    background-color: #5045D2;
+    width: 100%;
+    height: max-content;
+    padding: 90px 0;
+  }
+
+  .mop{
+    color: #FFFFFF;
+
+  }
+
+
+  .yut{
+    width: 480px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    
+    
+}
+
+.klo{
+    width: 110px;
+    height: 69px;
+    background-color: #D64374;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+  
+    
+   
+}
+
+.r-main{
+ margin-left: 350px;
+    
+}
+
+.hu{
+    width: 110px;
+    padding: 20px 0;
+}
+
+
+.k-main {
+    height: max-content;
+    padding: 60px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+@media (max-width:1201px ) {
+    .m-main{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 1206px) {
+    .h-main{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+}
+
+.mis{
+    color: #0A0213;
+    font-size: 20px;
+}
+
+@media (max-width: 1207px) {
+    .k-main{
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 993px) {
+    .k-main{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+}
+
+
+@media (max-width: 869px) {
+    .k-main{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+}
+
+
+@media (max-width: 1206px) {
+    .r-main{
+        flex-direction: column;
+   
+        .yut{
+            width:400px;
+            height: 58px;
+        }
+        .klo{
+            width: 94px;
+            height: 78px;
+        }
+    }
+}
+
+
+@media (max-width: 821px) {
+    .r-main{
+        flex-direction: column;
+        .yut{
+            width:300px;
+            height: 48px;
+        }
+    }
+}
+
